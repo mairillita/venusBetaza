@@ -1,0 +1,227 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2E3D5;
+}
+
+.subContenidos
+{  
+  margin: 0px;
+  padding: 10px 9px;
+  background-color: #D99962;
+  border: 1px;
+  color: rgb(7, 14, 1);
+  font-size: 22px;
+  font-style: italic;
+
+  text-align: center;
+  cursor: pointer;  
+}
+
+.subContenidos:hover
+{
+  background-color: #A64521;
+  width: 100%;
+  color:#ffffff;
+  transition: all 0.3s ease;
+}
+
+header 
+{
+  background-color: #D99962;
+  color: #A64521;
+  padding: 15px 15px 0px 15px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+header a
+{
+  color: #59220E;
+  text-decoration: none;
+}
+
+header div.titulo
+{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  width: 100%;
+} 
+
+img.logo{
+    max-width: 90px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+   
+  }
+
+header div.barra
+{
+  display: flex;
+  justify-content:space-around;
+  width: 100%;
+} 
+
+header h1 
+{
+  margin: 5px 25px;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #59220E;
+}
+
+/*bienvenida*/
+.bienvenida{
+  background-color: #F2E3D5;
+  padding: 20px;
+  text-align: justify;
+}
+.bienvenida h1{
+  text-align: center;
+  color: #A64521;
+}
+
+.bienvenida p{
+  color: #59220E;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+/* Sección de servicios */
+.services {
+    background-color: #F2E3D5;
+    padding: 2em;
+}
+
+.services h2{
+  color: #A64521;
+}
+
+.services ul {
+    list-style: disc;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: #59220E;
+}
+
+.services p{
+  color: #59220E;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+.elegirnos{
+  background-color: #F2E3D5;
+  padding: 2em;
+  text-align: justify;
+}
+
+.elegirnos h2{
+  color: #A64521;
+}
+
+.elegirnos p{
+  color: #59220E;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+.final{
+  background-color: #F2E3D5;
+  padding: 2em;
+  text-align: justify;
+}
+
+.final p{
+  color: #59220E;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+.final h2{
+  color: #A64521;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.final h4{
+  color: #A64521;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Sección de contacto */
+section.contact {
+  background-color: #D99962;
+  color:#59220E;
+  padding: 2em;
+  
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color:#A64521;
+  color:#D99962;
+}
+
+/*INICIO DE CSS GALERIA*/
+.fotos{
+  box-sizing: border-box;
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+.bodyGaleria{
+  margin: 0;
+  padding: 0;
+}
+.galeriaImagenes{
+  width: 100%;
+}
+.column{
+  flex: 15%;
+  padding: 5px;
+}
+.column img{
+  margin-top: 5px;
+}
+@media(max-width: 1000px){
+  .column{
+    flex: 100%;
+  }
+}
+@media(max-width:800px){
+  .column{
+    flex: 50%;
+  }
+}
+
+.videos{
+  box-sizing: border-box;
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+.galeriaVideos{
+  width: 100%;
+  height: 100%;
+}
